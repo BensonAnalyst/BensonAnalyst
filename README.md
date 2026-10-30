@@ -10,6 +10,7 @@
 
 **Data engineering:** Databricks (Delta Lake, Unity Catalog, Auto Loader, Jobs), PySpark, SQL, medallion architecture, data-quality gates  
 **ML & analytics:** Python, MLflow, RAG (Databricks AI Search, LLM evaluation), forecasting, anomaly detection, NLP / LLM classification, SPC
+
 **BI:** Power BI & DAX, executive KPI dashboards  
 **Apps:** JavaScript, Supabase (PostgreSQL, Row-Level Security), GitHub Actions
 
