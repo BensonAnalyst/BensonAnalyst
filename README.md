@@ -9,7 +9,7 @@
 ### What I work with
 
 **Data engineering:** Databricks (Delta Lake, Unity Catalog, Auto Loader, Jobs), PySpark, SQL, medallion architecture, data-quality gates  
-**ML & analytics:** Python, MLflow, forecasting, anomaly detection, NLP / LLM classification, SPC  
+**ML & analytics:** Python, MLflow, RAG (Databricks AI Search, LLM evaluation), forecasting, anomaly detection, NLP / LLM classification, SPC
 **BI:** Power BI & DAX, executive KPI dashboards  
 **Apps:** JavaScript, Supabase (PostgreSQL, Row-Level Security), GitHub Actions
 
@@ -20,7 +20,7 @@
 | [**marine-geodata-lakehouse**](https://github.com/BensonAnalyst/marine-geodata-lakehouse) | Medallion pipeline that **automatically catches sensor faults** (spikes, flatlines, drift, gaps) in vessel telemetry. Caught every injected fault in a 7-day, 189,810-row test. | Databricks, Delta, Auto Loader, MLflow |
 | [**retail-demand-intelligence**](https://github.com/BensonAnalyst/retail-demand-intelligence) | Replaces an Excel stock rule with a validated forecast: **forecast error −59%, simulated stock-out losses −81%** (synthetic data, backtested). | Databricks, Spark, MLflow |
 | [**class-pet-garden**](https://github.com/BensonAnalyst/class-pet-garden) | Live classroom motivation web app: students raise virtual pets with behaviour points. Multi-tenant, with Row-Level Security. **[Try it](https://bensonanalyst.github.io/class-pet-garden/)** | JavaScript, Supabase, GitHub Pages |
-| [**fab-troubleshooting-assistant**](https://github.com/BensonAnalyst/fab-troubleshooting-assistant) | RAG assistant for SPC out-of-control events: retrieves the right SOP and past fixes on the same tool, with citations and a 49-question evaluation set. *(In progress: Week 1 of 3 done.)* | Databricks, PySpark, Delta, Vector Search, MLflow |
+| [**fab-troubleshooting-assistant**](https://github.com/BensonAnalyst/fab-troubleshooting-assistant) | RAG assistant that answers "this tool just went out of control, what do I check?" from SOPs and past cases, with citations. **Right SOP ranked first 97.5%, release criteria always retrieved, 80% of answers fully grounded (LLM judge)**; declines what it can't support. | Databricks AI Search, LLMs, MLflow, PySpark |
 
 ### How I approach a problem
 
