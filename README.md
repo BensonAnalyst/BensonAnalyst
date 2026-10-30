@@ -4,7 +4,7 @@
 
 - 🏭 **Background:** 18 years across semiconductor manufacturing (Micron, STMicroelectronics) and service analytics (HP): SPC/FDC, yield and cost, intervention-rate and NPS KPIs
 - 🎓 **Master of Computer Science (Data Science & AI)**, UTM · BEng (EEE), NTU
-- 📍 Singapore / Johor Bahru
+- 📍 Singapore / Malaysia
 
 ### What I work with
 
